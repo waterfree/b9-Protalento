@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="content-form_section">
+    <h1>Registro: </h1>
+    <form id="for_pri">
+
+
+        <br>
+        <label class="label_form" for="name">Nombre
+        <input type="text" placeholder="Nombre completo" id="name" required>
+        </label>
+
+        <br>
+        <label class="label_form" for="cedula">Cedula
+        <input type="number" placeholder="Cedula" id="cedula" required>
+        </label>
+
+        <br>
+        <label class="label_form" for="contrasena">Contraseña
+        <input type="password" placeholder=" 8 digitos" id="contrasena" maxlength="8" minlength="5">
+        </label>
+
+        <br>
+        <label class="label_form" for="email">Email
+        <input type="email" placeholder="email" id="email">
+        </label>
+
+        <br>
+        <label for="term">Acepto terminos y condiciones
+        <input type="checkbox" id="term">
+        </label>
+
+        <br>
+        <label for="mkt">Quiero recibir email de marketing
+        <input type="checkbox" id="mkt">
+        </label>
+
+        <h2>Dificultad</h2>
+
+        <label for="facil">Fàcil
+        <input type="radio" id="facil" name="dificultad">
+        </label>
+
+        <label for="medio">Medio
+        <input type="radio" id="medio" name="dificultad">
+        </label>
+        
+        <label for="dificil">Difìcil
+        <input type="radio" id="dificil" name="dificultad">
+        </label>
+
+        <br>
+        <label for="habilidad">Selecciona una habilidad especial: </label>
+        <select name="habilidad" id="habilidad">
+            <option value="" selected disabled>--</option>
+            <option value="salto">Doble salto en las paredes</option>
+            <option value="dano">Aumento 25% de daño extra</option>
+            <option value="escudo">Reduccion del daño 30%</option>
+            <option value="velocista">Aumenta tu velocidad un 45%</option>
+
+        </select>
+        <div id="boton">
+        <button class="boton_buscar" type="submit">Guardar</button>
+        </div>
+    </form>
+</body>
+</html>

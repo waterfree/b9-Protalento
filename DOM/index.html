@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor" id="contenedor">
+        <p>Hola mundo</p>
+        <p>Maryluz</p>
+        <p>Maria Paula</p>
+    </div>
+
+    <button onclick="borrar()">Click para borrar</button>
+    <button onclick="modoOscuro()">Modo oscuro</button>
+    <button onclick="modoClaro()">Modo Claro</button>
+
+    <!--Manipulacion del DOM-->
+
+    <div class="contenedor" id="formulario">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="ejemplo@ejemplo.com">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password">
+        <p class="error_message" id="error_message">Completa tus datos!!!</p>
+        <button onclick="iniciarSesion()">Enviar</button>
+    </div>
+</body> 
+<script src="scripts.js"></script>
+</html>

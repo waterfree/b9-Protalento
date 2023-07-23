@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 15% 70% 15%;    
+    padding-left: 5rem;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    padding-left: 2 rem;
+    padding-right: 2 rem;    
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 60%;
+}
+
+header button{
+    background: linear-gradient(252deg, rgba(255,0,0,1) 0%, rgba(54,68,173,1) 100%);
+    border: none;
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+main{
+    /*background-color: green;*/
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+
+main button{
+    background: white;
+    border-radius: gray;
+    color: linear-gradient(252deg, rgba(255,0,0,1) 0%, rgba(54,68,173,1) 100%);
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h1{
+    height: 8rem;
+    width: 20rem;
+    font-size: 40px;
+    border-bottom: 5rem;
+}
+
+#intro1{
+    height: 5rem;
+    width: 22rem;
+}
+
+footer{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    color: darkgray;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+}
+
+.red_img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}

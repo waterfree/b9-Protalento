@@ -1,0 +1,39 @@
+/*pongo color a unos parrafos*/
+p{
+    color:darkgreen;
+}
+/*pongo lor en el header*/
+header{
+    background-color: blue;
+}
+
+
+footer{
+
+    background-color: black;
+    color: white;
+}
+
+#tamales{
+    background-color: darkgrey;
+    text-align: center;
+}
+/*modifico el tamaño de las imagenes*/
+img{
+    height: 180px;
+    width: 300px;
+}
+
+/*modifico el color de un parrafo con etiqueta*/
+#descripcion{
+    color: darkorchid;
+}
+/*dejar en una sola linea los p*/
+.text-inline{
+    display:inline
+}
+/*se pone margen*/
+li{
+    margin: 10px;
+    /*margin-bottom: 20px;*/
+}
