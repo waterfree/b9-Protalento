@@ -1,0 +1,284 @@
+body{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+@font-face{
+    font-family: 'roboto';
+    src: url(./font/Roboto-Black.ttf);
+}
+
+/*primer div*/
+
+.container{
+    display: grid;
+    /*height: 100vh;*/
+    grid-template-areas: 
+    
+    "header_1 header_1 header_1"
+    "section_1 section_1 section_1"
+    "aside_1 article_1 article_1"
+    "aside_1 details_1 details_1"
+    "aside_1 details_1 details_1"
+    "aside_1 details_1 details_1"
+    "aside_1 details_1 details_1"
+    ;
+}
+
+.box_1{
+    grid-area: header_1;
+}
+
+.box_2{
+    grid-area: section_1;
+}
+
+.box_3{
+    grid-area: aside_1 ;
+}
+
+.box_4{
+    grid-area: article_1;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.box_5{
+    grid-area: details_1;
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    "tcg1 tcg1"
+    "box_51 box_52"
+    "box_53 box_54"
+    "box_55 box_56"
+    "box_57 box_58"
+    "box_59 box_60"
+    "box_61 box_62"
+    ;
+}
+
+
+.tcg{
+    grid-area: tcg1;   
+}
+
+.circulo1{
+    grid-area: box_51;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.info1{
+    grid-area: box_52;
+    margin-left: 10px;
+}
+
+.circulo2{
+    grid-area: box_53;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.info2{
+    grid-area: box_54;
+    margin-left: 10px;
+}
+
+.circulo3{
+    grid-area: box_55;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.info3{
+    grid-area: box_56;
+    margin-left: 10px;
+}
+
+.circulo4{
+    grid-area: box_57;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.info4{
+    grid-area: box_58;
+    margin-left: 10px;
+}
+
+.circulo5{
+    grid-area: box_59;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.info5{
+    grid-area: box_60;
+    margin-left: 10px;
+}
+
+.circulo6{
+    grid-area: box_61;
+    margin-top: 40px;
+    margin-right: 20px;
+    
+}
+
+.info6{
+    grid-area: box_62;
+    margin-left: 10px;
+}
+
+header{
+    display: grid;
+/*    grid-template-columns: 30% 70%;*/
+    font-family:'roboto', sans-serif;
+}
+
+#head_1{
+    background-image: url(../Proyecto_html/imagenes/ecotips.png);
+    background-repeat: no-repeat;
+    grid-area: head1;
+    grid-column: 1 / 2;
+}
+
+#head_2{
+    grid-area: head2;
+    grid-column: 2 / 3;
+    justify-self: end;
+    margin-top: 15px;
+}
+
+.nave{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Segundo div*/
+section img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.list_lat{
+    font-family:'roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+article h1 {
+    font-family:'roboto', sans-serif;
+    font-size: 64px;
+}
+
+article p{
+    font-family:'roboto', sans-serif;
+    font-size: 16px;
+}
+
+#cir_gen{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    background-color: #99C354;
+    height: 64px;
+    width: 64px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 999px;
+}
+
+@media screen and (max-width: 540px){
+
+    body{
+        padding-right: 1em;
+        width: 100vh;
+        height: 100vh;
+    }
+
+    .box_1{
+        width: 90vh;
+        grid-template-columns: 30% 70%;
+    }
+
+    .box_2{
+
+    }
+    .box_3{
+        #list_lat1{
+            display: none;
+        }
+    }
+
+    .box_4{
+        /*padding-right: 1em;
+        width: 100vh;
+        height: 100vh;*/
+    }
+    .box_4 p{
+        width: 98vh;
+        object-fit: cover;
+        
+    }
+
+    .box_4 img{
+        width: 98vh;
+        object-fit: cover;
+    }
+
+    .box_5{
+        display: grid;
+        height: 100vh;
+        justify-items: center;
+    }
+
+    .box_5 h4{
+        display: grid;
+        justify-items: center;
+    }
+
+    #head_1{
+        
+        background-image: url(../Proyecto_html/imagenes/fondo_baja.png);
+        background-size: 40px 34px;
+    }
+
+    .container{
+
+        grid-template-areas: 
+        "header_1 header_1 header_1"
+        "section_1 section_1 section_1"
+        "aside_1 aside_1 aside_1"
+        "article_1 article_1 article_1"
+        "details_1 details_1 details_1"
+        "details_1 details_1 details_1"
+        "details_1 details_1 details_1"
+        ;
+    }
+
+    .box_5{
+        
+        grid-template-areas: 
+        "tcg1 tcg1"
+        "box_51 box_51"
+        "box_52 box_52"
+        "box_53 box_53"
+        "box_54 box_54"
+        "box_55 box_55"
+        "box_56 box_56"
+        "box_57 box_57"
+        "box_58 box_58"
+        "box_59 box_59"
+        "box_60 box_60"
+        "box_61 box_61"
+        "box_62 box_62"
+        ;
+    }
+}

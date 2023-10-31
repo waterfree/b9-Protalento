@@ -1,0 +1,19 @@
+.main-container{
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.card{
+  border: solid 3px #0093E9;
+}*/
+
+button{
+  border-radius: 10px;
+  
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}

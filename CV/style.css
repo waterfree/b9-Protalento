@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#foto{
+    
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil{
+
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 22%;
+}
+
+#perfil1{
+    padding-left: 22%;
+}
+
+#perfil p{
+    text-align: justify
+}

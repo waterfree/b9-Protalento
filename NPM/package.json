@@ -1,0 +1,15 @@
+{
+  "name": "nestoraguas",
+  "version": "1.0.0",
+  "description": "Esta es una prueba en clase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nestor_Aguas",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

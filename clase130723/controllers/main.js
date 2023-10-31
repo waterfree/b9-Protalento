@@ -6,16 +6,19 @@ const users = [
     {
         email:"nestora",
         password:"1234",
-        balance:1000
+        nombre:"Nestor Aguas",
+        balance:800
     },
     {
         email:"sebas",
         password:"1234",
+        nombre:"Sebastian Solorzano",
         balance:100
     },
     {
         email:"mary",
         password:"1234",
+        nombre:"Maryluz Caballero",
         balance:500
     },
 ]
