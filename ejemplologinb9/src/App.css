@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  background-color: #0093E9;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 25px;
+  color: gray;
+}
+
+.form-container section{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.form-container button{
+  border-radius: 25px;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  border: none;
+  padding: 5px;
+}
+
+.form-container input{
+  border-color: #f5af19;
+}
